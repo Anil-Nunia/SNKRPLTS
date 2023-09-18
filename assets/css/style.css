@@ -32,7 +32,6 @@
     background: rgba(196, 196, 196, 0.00);
 
 }
-
 .crspointr {
     cursor: pointer;
 }
@@ -65,15 +64,16 @@
     border: 2px solid #D5D5D5;
 }
 
-
 .nav-link.active:after {
     content: "";
     position: absolute;
     width: 0;
     height: 2px;
     left: 0;
+    right: 0;
     bottom: 5px;
     background-color: red;
+    
 }
 
 .nav-link.active:hover {
@@ -120,10 +120,16 @@
 .cardlocker {
     border-radius: 10px;
     background: #FFF;
-    box-shadow: 23px 44px 47px 0px rgba(0, 0, 0, 0.20);
-
+    box-shadow: 23px 44px 47px 0px rgba(0, 0, 0, 0.02);
+    border-radius: 10px;
 }
-
+.imgfootloker{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.imgssign{
+    cursor: pointer;
+}
 .imgicon {
     cursor: pointer;
 }
@@ -150,7 +156,13 @@
     background: #FFF;
     cursor: pointer;
 }
+.boxs1:hover{
+background-color: #808080;
 
+}
+.boxs1:hover.secondary_color{
+    color: #FFF;
+}
 .imgfootloker {
     border: 1px solid rgba(0, 0, 0, 0.12);
     padding: 27px 41px;
@@ -182,7 +194,9 @@
 .mx-mrgn {
     margin: 0px 12px;
 }
-
+.logofs{
+    cursor: pointer;
+}
 .ml-s {
     margin-left: 24px;
 }
@@ -200,8 +214,6 @@
     box-shadow: 3px 5px 22px 0px rgba(0, 0, 0, 0.08);
     cursor: pointer;
 }
-
-
 
 select {
     display: block;
@@ -262,9 +274,9 @@ select {
     left: 0 !important;
 }
 
-.navlink:hover::after {
-    width: 100%;
-}
+/* .navlink:hover.fs_sm {
+   scale: 40px;
+} */
 
 .btnadd:hover {
     background-color: #000;
@@ -272,6 +284,20 @@ select {
 
 .btnprice:hover {
     background-color: #000;
+}
+.footr:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    background-color: #fff;
+    transition: 400ms linear;
+}
+
+.footr:hover::after {
+    width: 100%;
 }
 
 .whitesp {
