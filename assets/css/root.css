@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+:root {
+    /* font-family */
+    --ff-primary: 'Roboto', sans-serif;
+    --ff-secondary: 'Poppins', sans-serif;
+    --ff-tertiary: 'Josefin Sans', sans-serif;
+
+    /* font-size */
+    --fs-xsm:12px;
+    --fs-xsm1:14px;
+    --fs-xs: 16px;
+    --fs-sm: 18px;
+    --fs-md: 20px;
+    --fs-lg: 25px;
+    --fs-xl: 30px;
+
+    /* font-weight */
+    --fw-light:300;
+    --fw-regular: 400; 
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
+
+    /* colors */
+    --primary-color: #222;
+    --primary-color2s: #4d4d4d;
+    --secondary-color: #181818;
+    --secondary-colors2s: #999;
+    --tertiary-color: #007bff;
+    --tertiary-color2s: #555;
+    --white-color: #FFF;
+    --black-color: #000;
+    --dark-color: #f00 ;
+    --darks-colors: #454729 ;
+}
+
+/* font-family */
+.ff_primary {
+    font-family: var(--ff-primary);
+}
+
+.ff_secondary {
+    font-family: var(--ff-secondary);
+}
+.ff_tertiary{
+    font-family: var(--ff-tertiary);
+}
+/* font-size */
+.fs_xsm{
+    font-size: var(--fs-xsm);
+}
+
+.fs_xsm1{
+    font-size: var(--fs-xsm1);
+}
+.fs_xs {
+    font-size: var(--fs-xs);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+
+/* font-weight */
+.fw_light{
+font-weight: var(--fw-light);
+}
+.fw_regular {
+    font-weight: var(--fw-regular);
+}
+.fw_medium {
+    font-weight: var(--fw-medium);
+}
+.fw_semibold {
+    font-weight: var(--fw-semi-bold);
+}
+
+/* font-color */
+.primary_color {
+    color: var(--primary-color);
+}
+.primary_color2s {
+    color: var(--primary-color2s);
+}
+.secondary_color {
+    color: var(--secondary-color);
+}
+.secondary_colors2s{
+    color: var(--secondary-colors2s);
+}
+.tertiary_color {
+    color: var(--tertiary-color);
+}
+.tertiary_color2s{
+    color:var(--tertiary-color2s)
+}
+.white_color {
+    color: var(--white-color);
+}
+
+.black_color {
+    color: var(--black-color);
+}
+.darks_colors{
+    color: var(--darks-colors);
+}
+/* color */
+.dark_color {
+    background-color: var(--dark-color);
+}
